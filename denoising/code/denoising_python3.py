@@ -87,3 +87,5 @@ for folder_ in folder_lst:
         # lee enhanced filter
         l_enhanced_im = findpeaks.lee_enhanced_filter(im, win_size=winsize, k=k_value2, cu=cu_lee_enhanced, cmax=cmax_value)
         cv2.imwrite(join(filter_names[6]+folder_name, img_name), l_enhanced_im)
+        print(f"{folder_name} => {img_name} complete")
+        
