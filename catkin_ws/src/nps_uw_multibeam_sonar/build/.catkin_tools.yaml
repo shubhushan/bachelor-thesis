@@ -1,0 +1,6 @@
+devel_space: /home/aviral/nps_uw_multibeam_sonar/devel
+install: false
+install_space: /home/aviral/nps_uw_multibeam_sonar/install
+profile: default
+source_space: /home/aviral/nps_uw_multibeam_sonar/src
+workspace: /home/aviral/nps_uw_multibeam_sonar
